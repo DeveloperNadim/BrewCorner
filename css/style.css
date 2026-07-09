@@ -75,6 +75,12 @@ header p >span{
     cursor: pointer;
     color: #2E2622;
     font-weight: bold;
+    transition: .3s;
+}
+
+.common-btn:hover {
+    transform:translateY(-8px);
+    box-shadow:0 10px 20px rgba(0,0,0,.15);
 }
 /* our-story section */
 .our-story{
@@ -166,4 +172,50 @@ header p >span{
     color:#b6783b;
     font-weight:bold;
     font-size:18px;
+}
+/* why us section */
+.why-us {
+    padding: 40px 0;
+}
+.why-us > h6{
+    color: #E9B44C;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+}
+.why-us h3 {
+    color: #2E2622;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+.why-us-card-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 30px;
+}
+.why-us-card {
+    height: 200px; 
+    text-align: center;  
+    transition:.3s;
+    cursor: pointer;
+}
+.why-us-card:hover {
+    transform:translateY(-8px);
+    box-shadow:0 10px 20px rgba(0,0,0,.15);
+}
+.why-us-card > h6{
+    font-size: 18px;
+    font-weight: bold;
+    color: #2E2622;
+    padding: 0 8px;
+}
+.why-us-card > p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #2E2622;
+    padding: 0 8px;
 }
