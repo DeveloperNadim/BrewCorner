@@ -111,3 +111,59 @@ header p >span{
     line-height: 1.7;
     color: #5A4F47;
 }
+/* popular picks section */
+.popular-picks {
+  background-color: #f1e7d8;
+  padding:80px 10%;
+  text-align:center;
+}
+.popular-picks h6{
+    color:#9b6b43;
+    font-size:14px;
+    letter-spacing:2px;
+    margin-bottom:10px;
+}
+.popular-picks h3{
+    font-size:40px;
+    margin-bottom:50px;
+    color: #2E2622;
+}
+.card-parent{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+    max-width: 1000px;
+}
+.card {
+    background:#fff;
+    border-radius:10px;
+    padding:30px 20px;
+    text-align:center;
+    transition:.3s;
+    cursor: pointer;
+    height: 250px;
+}
+.card:hover {
+    transform:translateY(-8px);
+    box-shadow:0 10px 20px rgba(0,0,0,.15);
+}
+.card img{
+    width:50px;
+    margin-bottom:20px;
+}
+
+.card h4{
+    margin-bottom:15px;
+}
+.card p{
+    font-size:14px;
+    color:#666;
+    line-height:1.6;
+    margin-bottom:20px;
+}
+
+.card span{
+    color:#b6783b;
+    font-weight:bold;
+    font-size:18px;
+}
